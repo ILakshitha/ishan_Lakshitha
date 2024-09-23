@@ -10,7 +10,27 @@ export default function Home() {
   const projectsref = useRef(null);
   const contactref = useRef(null);
 
-  
+  const scrollToSection = (section) => {
+    switch (section) {
+      case 'home': // Ensure this matches the section names used in Header
+        homeref.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'education':
+        educationref.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'skill':
+        skillref.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'projects': // Fixed typo here
+        projectsref.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      case 'contact':
+        contactref.current.scrollIntoView({ behavior: 'smooth' });
+        break;
+      default:
+        break;
+    }
+  };
   return (
     <div className="font-roboto">
       <Header />
@@ -30,7 +50,7 @@ export default function Home() {
 
       </div>
       {/* Your other app content */}
-      <AppBar />
+      <AppBar scrollToSection={scrollToSection} />
       <Footer />
     </div>
   )
