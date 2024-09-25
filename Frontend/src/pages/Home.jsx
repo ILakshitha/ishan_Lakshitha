@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 //import Header from '../components/Header';
 import Footer from '../components/Footer';
 import AppBar from '../components/AppBar';
+import Home_C from './Home_C';
 
 export default function Home() {
   const homeref = useRef(null);
@@ -36,6 +37,7 @@ export default function Home() {
      
       <div ref={homeref} id='home' className='bg-slate-900 h-screen'>
         <h1 className="text-4xl text-white font-bold">Lakshitha</h1>
+        <Home_C/>
       </div>
       <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
 
