@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import Header from '../components/Header';
+//import Header from '../components/Header';
 import Footer from '../components/Footer';
 import AppBar from '../components/AppBar';
 
@@ -33,9 +33,9 @@ export default function Home() {
   };
   return (
     <div className="font-roboto">
-      <Header />
-      <div ref={homeref} id='home' className='bg-red-500 h-screen'>
-        <h1 className="text-4xl font-bold">Lakshitha</h1>
+     
+      <div ref={homeref} id='home' className='bg-slate-900 h-screen'>
+        <h1 className="text-4xl text-white font-bold">Lakshitha</h1>
       </div>
       <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
 
