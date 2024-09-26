@@ -17,7 +17,6 @@ export default function Home_C() {
                 backgroundSize: "cover", // Ensures the image covers the box
                 backgroundPosition: "center", // Centers the image
                 backgroundRepeat: "no-repeat" 
-                
              }}>
                 
             </Box>
