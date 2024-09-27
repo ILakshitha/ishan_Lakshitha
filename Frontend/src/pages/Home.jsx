@@ -42,7 +42,7 @@ export default function Home() {
       <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
 
       </div>
-      <div ref={skillref} id='skills' className=' bg-red-500 h-screen'>
+      <div ref={skillref} id='skills' className=' bg-red-500 h-screen'> 
 
       </div>
       <div ref={projectsref} id='projects' className=' bg-red-100 h-screen'>
