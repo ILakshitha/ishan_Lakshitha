@@ -33,14 +33,15 @@ export default function Home() {
     }
   };
   let text= "Ishan Lakshitha";
-      let part  = text.replace("Ishan","nice");
+      let part  = text.slice(0,5);
       //console.log(part);
       
   return (
     <div className="font-roboto">
      
       <div ref={homeref} id='home' className='bg-slate-900 h-screen'>
-        <h1 className="text-4xl text-white font-bold">Lakshitha {part}</h1>
+        <h1 className="text-4xl text-white font-bold"> {part}</h1>
+        <h1 className="text-4xl text-white font-bold"> {text}</h1>
         <Home_C/>
       </div>
       <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
