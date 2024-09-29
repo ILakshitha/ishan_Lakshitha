@@ -39,10 +39,18 @@ export default function Home() {
   return (
     <div className="font-roboto">
      
-      <div ref={homeref} id='home' className='bg-slate-900 h-screen'>
-        <h1 className="text-4xl text-white font-bold"> {part}</h1>
-        <h1 className="text-4xl text-white font-bold"> {text}</h1>
+      <div ref={homeref} id='home' className='bg-slate-900 h-screen pt-10'>
+      
+        {/* <h1 className="text-4xl text-white font-bold"> {text}</h1> */}
+        <div className='flex'>
+        
         <Home_C/>
+        <div className='w-full h-full bg-slate-100 text-center'>
+        <h1 className=' w-full size- text-cyan-500 font-semibold'>Hey, I'm Ishan Lakshitha</h1>
+        </div>
+        
+        </div>
+        
       </div>
       <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
 
