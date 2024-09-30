@@ -45,8 +45,8 @@ export default function Home() {
         <div className='flex'>
         
         <Home_C/>
-        <div className='w-full h-full bg-slate-100 text-center'>
-        <h1 className=' w-full size- text-cyan-500 font-semibold'>Hey, I'm Ishan Lakshitha</h1>
+        <div className='w-full text-center flex items-center justify-center'>
+        <h1 className='font-semibold text-white text-6xl'>Hey, I'm Ishan Lakshitha</h1>
         </div>
         
         </div>
