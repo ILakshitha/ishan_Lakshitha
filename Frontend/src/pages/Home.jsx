@@ -32,10 +32,7 @@ export default function Home() {
         break;
     }
   };
-  let text= "Ishan Lakshitha";
-      let part  = text.slice(0,5);
-      //console.log(part);
-      
+ 
   return (
     <div className="font-roboto">
      
