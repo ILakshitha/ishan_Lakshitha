@@ -4,13 +4,12 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
 
 export default function Header() {
     return (
         <div>
-            <Box sx={{ flexGrow: 1 }}>
-                <AppBar position="">
+            <Box sx={{ flexGrow: 1, color:'rebeccapurple'}}>
+                <AppBar position="" sx={{ backgroundColor: 'rebeccapurple' }} >
                     <Toolbar>
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                             LOGO
