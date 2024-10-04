@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import Footer from '../components/Footer';
 import AppBar from '../components/AppBar';
 import Home_C from './Home_C';
+import Header from '../components/Header';
 
 export default function Home() {
   const homeref = useRef(null);
@@ -35,6 +36,7 @@ export default function Home() {
  
   return (
     <div className="font-roboto">
+      <Header/>
      
       <div ref={homeref} id='home' className='bg-slate-900 h-screen pt-10'>
       
