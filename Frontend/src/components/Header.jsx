@@ -18,7 +18,6 @@ export default function Header() {
                     </Toolbar>
                 </AppBar>
             </Box>
-            
         </div>
     )
 }
