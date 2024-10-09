@@ -19,6 +19,7 @@ export default function Home_C() {
                 backgroundRepeat: "no-repeat" ,
                 
              }}>   
+             
             </Box>
         </div>
     )
