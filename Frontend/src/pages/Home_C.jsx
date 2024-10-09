@@ -16,7 +16,8 @@ export default function Home_C() {
                 backgroundImage:`url(${profilepic})`,
                 backgroundSize: "cover", // Ensures the image covers the box
                 backgroundPosition: "center", // Centers the image
-                backgroundRepeat: "no-repeat" 
+                backgroundRepeat: "no-repeat" ,
+                
              }}>   
             </Box>
         </div>
