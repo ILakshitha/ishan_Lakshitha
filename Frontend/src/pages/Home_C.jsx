@@ -18,7 +18,6 @@ export default function Home_C() {
                 backgroundPosition: "center", // Centers the image
                 backgroundRepeat: "no-repeat"    
              }}>   
-             
             </Box>
         </div>
     )
