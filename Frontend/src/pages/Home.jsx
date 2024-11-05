@@ -5,6 +5,7 @@ import AppBar from '../components/AppBar';
 import Home_C from './Home_C';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
+import Education_C from './Education_C';
 
 export default function Home() {
   const homeref = useRef(null);
@@ -53,7 +54,7 @@ export default function Home() {
       githubUrl: "https://github.com/your-username/project-2"
     },
     {
-      title: "Project 2",
+      title: "Project 3",
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["Python", "Django", "PostgreSQL"],
       imageUrl: "/path-to-your-image.jpg",
@@ -61,7 +62,7 @@ export default function Home() {
       githubUrl: "https://github.com/your-username/project-2"
     },
     {
-      title: "Project 2",
+      title: "Project 4",
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["Python", "Django", "PostgreSQL"],
       imageUrl: "/path-to-your-image.jpg",
@@ -69,7 +70,7 @@ export default function Home() {
       githubUrl: "https://github.com/your-username/project-2"
     },
     {
-      title: "Project 2",
+      title: "Project 5",
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["Python", "Django", "PostgreSQL"],
       imageUrl: "/path-to-your-image.jpg",
@@ -77,7 +78,7 @@ export default function Home() {
       githubUrl: "https://github.com/your-username/project-2"
     },
     {
-      title: "Project 2",
+      title: "Project 6",
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["Python", "Django", "PostgreSQL"],
       imageUrl: "/path-to-your-image.jpg",
@@ -112,8 +113,8 @@ export default function Home() {
         </div>
 
       </div>
-      <div ref={educationref} id='education' className=' bg-red-300 h-screen'>
-
+      <div ref={educationref} id='education' className=' bg-slate-900 h-screen'>
+        <Education_C />
       </div>
       <div ref={skillref} id='skills' className=' bg-red-500 h-screen'>
 
