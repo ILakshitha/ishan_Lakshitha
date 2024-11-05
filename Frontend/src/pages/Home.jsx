@@ -6,6 +6,7 @@ import Home_C from './Home_C';
 import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Education_C from './Education_C';
+import Skill_cards from '../components/Skill_cards';
 
 export default function Home() {
   const homeref = useRef(null);
@@ -102,13 +103,8 @@ export default function Home() {
             <h1 className='font-semibold text-white text-6xl'>Hey, I'm Ishan Lakshitha</h1>
           </div>
         </div>
-        <div className='flex bg-blue-600'>
-          <div>
-            item cards
-          </div>
-          <div className='bg-red-600'>
-            profile details
-          </div>
+        <div className='flex bg-blue-600 h-40 mt-10'>
+          
 
         </div>
 
@@ -117,7 +113,7 @@ export default function Home() {
         <Education_C />
       </div>
       <div ref={skillref} id='skills' className=' bg-red-500 h-screen'>
-
+        <Skill_cards />
       </div>
       <div ref={projectsref} id='projects' className='min-h-screen bg-slate-100 py-16'>
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
