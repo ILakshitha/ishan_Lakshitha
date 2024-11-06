@@ -3,25 +3,25 @@ import React from 'react'
 export default function Education_C() {
     const educationData = [
         {
-            period: "2020 — 2024",
+            period: "2021 — 2024",
             degree: "Bachelor of Computer Science",
             institution: "University Of Colombo",
             description: "Specialized in Software Engineering with focus on web development and distributed systems. Participated in various projects and competitions.",
             skills: ["Data Structures", "Algorithms", "Web Development", "Database Management"]
         },
         {
-            period: "2018 — 2020",
-            degree: "Associate Degree in Computer Science",
-            institution: "UCSC",
-            description: "Fundamental computer science education with hands-on programming experience and team projects.",
-            skills: ["Programming", "Mathematics", "Problem Solving"]
+            period: "2018 — 2021",
+            degree: "Combined Mathematics",
+            institution: "G/Karandeniya Central College",
+            description: "Mathematics and Physics education with a strong foundation in mathematical concepts and problem-solving skills.",
+            skills: ["Physics", "Mathematics", "Problem Solving","chemistry"]
         },
         {
-            period: "2018 — 2020",
-            degree: "Associate Degree in Computer Science",
-            institution: "UCSC",
-            description: "Fundamental computer science education with hands-on programming experience and team projects.",
-            skills: ["Programming", "Mathematics", "Problem Solving"]
+            period: "2012 — 2018",
+            degree: "GCE O/L",
+            institution: "G/Poddiwala National College",
+            description: "Passed with 8 A*s and one C s in the GCE O/L Examination.",
+            skills: ["Mathematics", "Science", "Sinhala", "English", "History", "Geography", "Religion", "Information Technology", "Physical Education"]
         }
     ];
 
