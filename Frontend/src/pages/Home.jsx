@@ -39,52 +39,53 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Project 1",
-      description: "This is a sample project description. Replace with your actual project details.",
+      title: "Travel App",
+      description: "This is a travel app that allows you can find places to visit and also allows you to book hotels and flights.",
+      technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
+      imageUrl: "/path-to-your-image.jpg",
+      projectUrl: "https://your-project-url.com",
+      githubUrl: "https://github.com/ILakshitha/Travel-App"
+    },
+    {
+      title: "Blog App",
+      description: "This is a blog app that allows you to create, read, update, and delete blog posts.",
       technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: "/path-to-your-image.jpg",
       projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-1"
+      githubUrl: "https://github.com/ILakshitha/Bloggeer-web-App"
     },
     {
-      title: "Project 2",
-      description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["Python", "Django", "PostgreSQL"],
+      title: "Real-State Web App",
+      description: "This is a real-state web app that allows you to create, read, update, and delete real-state properties. And also allows you to search for properties based on location, price, and other criteria.",
+      technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: "/path-to-your-image.jpg",
       projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-2"
+      githubUrl: "https://github.com/ILakshitha/mern-state"
     },
     {
-      title: "Project 3",
+      title: "School Management System",
       description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["Python", "Django", "PostgreSQL"],
+      technologies: ["React", "Material UI", "Node.js"],
       imageUrl: "/path-to-your-image.jpg",
       projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-2"
+      githubUrl: "https://github.com/ILakshitha/School-Management-System"
+    },
+    
+    {
+      title: "BMI Calculator",
+      description: "This is a BMI calculator that allows you to calculate your BMI based on your weight and height.",
+      technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
+      imageUrl: "/path-to-your-image.jpg",
+      projectUrl: "https://your-project-url.com",
+      githubUrl: "https://github.com/ILakshitha/BMI_Calculator"
     },
     {
-      title: "Project 4",
-      description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["Python", "Django", "PostgreSQL"],
+      title: "Hotel_Mithila web App",
+      description: "This web app create for mithila hotel in Unawatuna.",
+      technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: "/path-to-your-image.jpg",
       projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-2"
-    },
-    {
-      title: "Project 5",
-      description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["Python", "Django", "PostgreSQL"],
-      imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-2"
-    },
-    {
-      title: "Project 6",
-      description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["Python", "Django", "PostgreSQL"],
-      imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/your-username/project-2"
+      githubUrl: "https://github.com/ILakshitha/Hotel_Mithila"
     },
     // Add more projects as needed
   ];
