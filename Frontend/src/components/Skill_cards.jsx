@@ -4,7 +4,7 @@ export default function Skill_cards() {
   return (
     <div className="container mx-auto px-4 py-16">
           <h2 className="text-4xl font-bold text-center text-white mb-12">My Skills</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             
             {/* Mobile App Development Card */}
             <div className="bg-slate-800 rounded-lg p-6 hover:bg-slate-700 transition-colors">
