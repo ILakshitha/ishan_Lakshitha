@@ -113,11 +113,11 @@ export default function Home() {
       <div ref={educationref} id='education' className=' bg-slate-900 h-screen'>
         <Education_C />
       </div>
-      <div ref={skillref} id='skills' className=' bg-red-500 h-screen'>
+      <div ref={skillref} id='skills' className=' bg-slate-900 h-screen flex items-center justify-center'>
         <Skill_cards />
       </div>
-      <div ref={projectsref} id='projects' className='min-h-screen bg-slate-100 py-16'>
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
+      <div ref={projectsref} id='projects' className='min-h-screen bg-slate-900 py-16'>
+        <h2 className="text-white text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center">
             {projects.map((project, index) => (
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div ref={contactref} id='contact' className=' bg-red-800 h-screen'>
+      <div ref={contactref} id='contact' className=' bg-slate-900  h-screen'>
 
       </div>
 
