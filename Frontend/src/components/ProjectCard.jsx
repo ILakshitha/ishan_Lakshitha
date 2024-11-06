@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, githubUrl }) => {
   return (
-    <div className="bg-slate-300 max-w-sm rounded-xl overflow-hidden shadow-lg bg-white m-4 transition-transform duration-300 hover:scale-105">
+    <div className="bg-slate-500 max-w-sm rounded-xl overflow-hidden shadow-lg m-4 transition-transform duration-300 hover:scale-105">
       <img className="w-full h-48 object-cover rounded-t-xl" src={imageUrl} alt={title} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
@@ -12,7 +12,7 @@ const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, g
       </div>
       <div className="px-6 pt-4 pb-2">
         {technologies.map((tech, index) => (
-          <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+          <span key={index} className="inline-block bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-teal-400 mr-2 mb-2">
             #{tech}
           </span>
         ))}
