@@ -20,7 +20,7 @@ export default function Education_C() {
             period: "2012 — 2018",
             degree: "GCE O/L",
             institution: "G/Poddiwala National College",
-            description: "Passed with 8 A*s and one C s in the GCE O/L Examination.",
+            description: "Passed with 8 A s and one C s in the GCE O/L Examination.",
             skills: ["Mathematics", "Science", "Sinhala", "English", "History", "Geography", "Religion", "Information Technology", "Physical Education"]
         }
     ];
