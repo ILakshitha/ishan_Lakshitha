@@ -34,7 +34,6 @@ export default function Education_C() {
 
     return (
         <div className="">
-            <h1 className='text-white text-2xl font-bold mb-4'>Education Timeline</h1>
             {educationData.map((education, index) => (
                 <div className='flex flex-col pl-20 pb-10 pt-5'>
                 <div key={index} className="flex mb-12 last:mb-0">

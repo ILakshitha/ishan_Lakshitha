@@ -9,12 +9,13 @@ export default function Header() {
     return (
         <div>
             <Box sx={{ flexGrow: 1, color:'rebeccapurple'}}>
-                <AppBar position="" sx={{ backgroundColor: 'rebeccapurple' }} >
+                <AppBar position="" sx={{ backgroundColor: '#2b2f39' }} >
                     <Toolbar>
                         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                            LOGO
+                            Ishan Lakshitha
                         </Typography>
-                        <Button className='border-separate' color="inherit">Let's Talk</Button>
+                        <a href='mailto:ilakshitha7921@email.com'>
+                        <Button className='border-separate' color="inherit">Let's Talk</Button></a>
                     </Toolbar>
                 </AppBar>
             </Box>

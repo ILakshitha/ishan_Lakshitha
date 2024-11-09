@@ -95,7 +95,7 @@ export default function Home() {
     <div className="font-roboto">
       <Header />
 
-      <div ref={homeref} id='home' className='bg-gray-900 h-screen pt-10'>
+      <div ref={homeref} id='home' className='bg-slate-900 h-screen pt-10'>
 
         {/* <h1 className="text-4xl text-white font-bold"> {text}</h1> */}
         <div className='flex'>
@@ -104,17 +104,18 @@ export default function Home() {
           <div className='w-full text-center flex items-center justify-center'>
             <div>
             <h1 className='font-semibold text-8xl text-start  text-white relative'> <span className='text-6xl'>Hey,</span> <br/>I'm Ishan Lakshitha</h1>
-            <h4 className='font-sans-serif text-white text-4xl text-left m-2'>Web3|Cloud Enthusiast</h4>
+            <h4 className='font-serif text-white text-4xl text-left m-2'>Web3|Cloud Enthusiast</h4>
             </div>
           </div>
         </div>
-        <div className='flex bg-blue-600 h-40 mt-10'>
+        <div className='flex bg-slate-900 h-40 mt-10'>
           
 
         </div>
 
       </div>
       <div ref={educationref} id='education' className=' bg-gray-900 h-screen'>
+      <h2 className="text-white text-4xl font-bold text-center mb-12">Education Timeline</h2>
         <Education_C />
       </div>
       <div ref={skillref} id='skills' className=' bg-gray-900 h-screen flex items-center justify-center'>
@@ -130,7 +131,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div ref={contactref} id='contact' className=' bg-gray-900  h-screen'>
+      <div ref={contactref} id='contact' className='flex bg-gray-900  h-screen'>
         <Contact/>
 
       </div>
