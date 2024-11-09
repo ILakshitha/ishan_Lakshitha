@@ -7,6 +7,8 @@ import Header from '../components/Header';
 import ProjectCard from '../components/ProjectCard';
 import Education_C from './Education_C';
 import Skill_cards from '../components/Skill_cards';
+import web_p from '../assets/Web-App-Development.jpg'
+import mob_p from '../assets/f-image.png'
 
 export default function Home() {
   const homeref = useRef(null);
@@ -39,26 +41,26 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Travel App",
-      description: "This is a travel app that allows you can find places to visit and also allows you to book hotels and flights.",
-      technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
-      imageUrl: "/path-to-your-image.jpg",
-      projectUrl: "https://your-project-url.com",
-      githubUrl: "https://github.com/ILakshitha/Travel-App"
-    },
-    {
       title: "Blog App",
       description: "This is a blog app that allows you to create, read, update, and delete blog posts.",
       technologies: ["React", "TailwindCSS", "Node.js"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: web_p,
       projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/Bloggeer-web-App"
+    },
+    {
+      title: "Travel App",
+      description: "This is a travel app that allows you can find places to visit and also allows you to book hotels and flights.",
+      technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
+      imageUrl: mob_p,
+      projectUrl: "https://your-project-url.com",
+      githubUrl: "https://github.com/ILakshitha/Travel-App"
     },
     {
       title: "Real-State Web App",
       description: "This is a real-state web app that allows you to create, read, update, and delete real-state properties. And also allows you to search for properties based on location, price, and other criteria.",
       technologies: ["React", "TailwindCSS", "Node.js"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: web_p,
       projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/mern-state"
     },
@@ -66,7 +68,7 @@ export default function Home() {
       title: "School Management System",
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["React", "Material UI", "Node.js"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: web_p,
       projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/School-Management-System"
     },
@@ -75,7 +77,7 @@ export default function Home() {
       title: "BMI Calculator",
       description: "This is a BMI calculator that allows you to calculate your BMI based on your weight and height.",
       technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: mob_p,
       projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/BMI_Calculator"
     },
@@ -83,7 +85,7 @@ export default function Home() {
       title: "Hotel_Mithila web App",
       description: "This web app create for mithila hotel in Unawatuna.",
       technologies: ["React", "TailwindCSS", "Node.js"],
-      imageUrl: "/path-to-your-image.jpg",
+      imageUrl: web_p,
       projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/Hotel_Mithila"
     },
