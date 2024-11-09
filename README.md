@@ -1,30 +1,48 @@
-Instructions to Start the App
-1. Prerequisites
-Make sure you have Node.js installed. You can download it from nodejs.org.
+# Installation Guide
 
-2. Installation Steps
-Clone the repository:
+## Prerequisites
+- Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org).
 
-Copy code
-git clone https://github.com/ILakshitha/ishan_Lakshitha.git
-Navigate to the Frontend directory:
-cd ishan_lakshitha/Frontend
+## Installation Steps
 
-Install the dependencies:
-npm install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ILakshitha/ishan_Lakshitha.git
+   ```
 
+2. Navigate to the Frontend directory:
+   ```bash
+   cd ishan_lakshitha/Frontend
+   ```
 
-3. Running the App
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-Development Mode:
+## Running the App
 
+### Development Mode
+Start the app in development mode:
+```bash
 npm run dev
-This will start the app in development mode. Open http://localhost:5173 to view it in the browser.
+```
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-Build for Production:
+### Production Build
+Build the app for production:
+```bash
 npm run build
-This will create an optimized production build of your app in the dist folder.
+```
+This will create an optimized production build in the `dist` folder.
 
-Preview the Production Build:
+### Preview Production Build
+To preview the production build locally:
+```bash
 npm run preview
-This command will allow you to preview the production build locally.
+```
+
+## Additional Information
+- The development server runs on port 5173 by default
+- The production build will be created in the `dist` directory
+- Make sure all dependencies are properly installed before running the app
