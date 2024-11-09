@@ -103,7 +103,7 @@ export default function Home() {
           <div className='w-full text-center flex items-center justify-center'>
             <div>
             <h1 className='font-semibold text-white text-8xl text-start'> <span className='text-6xl'>Hey,</span> <br/>I'm Ishan Lakshitha</h1>
-            <h4 className='font-bold text-white text-left m-2'>Web3|Cloud Enthusiast</h4>
+            <h4 className='font-sans-serif text-white text-4xl text-left m-2'>Web3|Cloud Enthusiast</h4>
             </div>
           </div>
         </div>
