@@ -18,12 +18,19 @@ const ProjectCard = ({ title, description, technologies, imageUrl, projectUrl, g
         ))}
       </div>
       <div className="px-6 pb-4 flex justify-between">
-        <a href={projectUrl} target="_blank" rel="noopener noreferrer" 
-           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg">
-          Live Demo
-        </a>
+        {projectUrl && (
+          <a
+            href={projectUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg"
+          >
+            Live Demo
+          </a>
+        )}
+
         <a href={githubUrl} target="_blank" rel="noopener noreferrer"
-           className="bg-blue-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
+          className="bg-blue-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded-lg">
           GitHub
         </a>
       </div>

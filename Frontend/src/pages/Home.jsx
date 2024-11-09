@@ -53,7 +53,7 @@ export default function Home() {
       description: "This is a travel app that allows you can find places to visit and also allows you to book hotels and flights.",
       technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
       imageUrl: mob_p,
-      projectUrl: "https://your-project-url.com",
+
       githubUrl: "https://github.com/ILakshitha/Travel-App"
     },
     {
@@ -61,7 +61,6 @@ export default function Home() {
       description: "This is a real-state web app that allows you to create, read, update, and delete real-state properties. And also allows you to search for properties based on location, price, and other criteria.",
       technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: web_p,
-      projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/mern-state"
     },
     {
@@ -69,7 +68,7 @@ export default function Home() {
       description: "Another sample project description. Replace with your actual project details.",
       technologies: ["React", "Material UI", "Node.js"],
       imageUrl: web_p,
-      projectUrl: "https://your-project-url.com",
+
       githubUrl: "https://github.com/ILakshitha/School-Management-System"
     },
     
@@ -78,7 +77,6 @@ export default function Home() {
       description: "This is a BMI calculator that allows you to calculate your BMI based on your weight and height.",
       technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
       imageUrl: mob_p,
-      projectUrl: "https://your-project-url.com",
       githubUrl: "https://github.com/ILakshitha/BMI_Calculator"
     },
     {
@@ -86,7 +84,7 @@ export default function Home() {
       description: "This web app create for mithila hotel in Unawatuna.",
       technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: web_p,
-      projectUrl: "https://your-project-url.com",
+      
       githubUrl: "https://github.com/ILakshitha/Hotel_Mithila"
     },
     // Add more projects as needed
@@ -103,7 +101,10 @@ export default function Home() {
 
           <Home_C />
           <div className='w-full text-center flex items-center justify-center'>
-            <h1 className='font-semibold text-white text-6xl'>Hey, I'm Ishan Lakshitha</h1>
+            <div>
+            <h1 className='font-semibold text-white text-8xl text-start'> <span className='text-6xl'>Hey,</span> <br/>I'm Ishan Lakshitha</h1>
+            <h4 className='font-bold text-white text-left m-2'>Web3|Cloud Enthusiast</h4>
+            </div>
           </div>
         </div>
         <div className='flex bg-blue-600 h-40 mt-10'>

@@ -10,6 +10,13 @@ export default function Education_C() {
             skills: ["Data Structures", "Algorithms", "Web Development", "Database Management"]
         },
         {
+            period: "2021 — 2021",
+            degree: "Advance English course",
+            institution: "Kekirawa English Academy",
+            description: "",
+            skills: ["Spoken", "Writing", "Reading", "Grammer","Listning"]
+        },
+        {
             period: "2018 — 2021",
             degree: "Combined Mathematics",
             institution: "G/Karandeniya Central College",
