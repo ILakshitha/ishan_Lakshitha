@@ -46,7 +46,7 @@ export default function Home() {
       description: "This is a blog app that allows you to create, read, update, and delete blog posts.",
       technologies: ["React", "TailwindCSS", "Node.js"],
       imageUrl: web_p,
-      projectUrl: "https://your-project-url.com",
+      projectUrl: "https://mern-blog-uozi.onrender.com/",
       githubUrl: "https://github.com/ILakshitha/Bloggeer-web-App"
     },
     {
