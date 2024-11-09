@@ -9,6 +9,7 @@ import Education_C from './Education_C';
 import Skill_cards from '../components/Skill_cards';
 import web_p from '../assets/Web-App-Development.jpg'
 import mob_p from '../assets/f-image.png'
+import Contact from '../components/Contact';
 
 export default function Home() {
   const homeref = useRef(null);
@@ -94,7 +95,7 @@ export default function Home() {
     <div className="font-roboto">
       <Header />
 
-      <div ref={homeref} id='home' className='bg-slate-900 h-screen pt-10'>
+      <div ref={homeref} id='home' className='bg-gray-900 h-screen pt-10'>
 
         {/* <h1 className="text-4xl text-white font-bold"> {text}</h1> */}
         <div className='flex'>
@@ -102,7 +103,7 @@ export default function Home() {
           <Home_C />
           <div className='w-full text-center flex items-center justify-center'>
             <div>
-            <h1 className='font-semibold text-white text-8xl text-start'> <span className='text-6xl'>Hey,</span> <br/>I'm Ishan Lakshitha</h1>
+            <h1 className='font-semibold text-8xl text-start  text-white relative'> <span className='text-6xl'>Hey,</span> <br/>I'm Ishan Lakshitha</h1>
             <h4 className='font-sans-serif text-white text-4xl text-left m-2'>Web3|Cloud Enthusiast</h4>
             </div>
           </div>
@@ -113,10 +114,10 @@ export default function Home() {
         </div>
 
       </div>
-      <div ref={educationref} id='education' className=' bg-slate-900 h-screen'>
+      <div ref={educationref} id='education' className=' bg-gray-900 h-screen'>
         <Education_C />
       </div>
-      <div ref={skillref} id='skills' className=' bg-slate-900 h-screen flex items-center justify-center'>
+      <div ref={skillref} id='skills' className=' bg-gray-900 h-screen flex items-center justify-center'>
         <Skill_cards />
       </div>
       <div ref={projectsref} id='projects' className='min-h-screen bg-slate-900 py-16'>
@@ -129,7 +130,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div ref={contactref} id='contact' className=' bg-slate-900  h-screen'>
+      <div ref={contactref} id='contact' className=' bg-gray-900  h-screen'>
+        <Contact/>
 
       </div>
 
