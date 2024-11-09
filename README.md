@@ -1,3 +1,8 @@
+- Name : Ishan Lakshitha
+- Email : ilakshitha7921@gmail.com
+- Reg No : 2022/cs/108
+
+
 # Installation Guide
 
 ## Prerequisites
@@ -49,10 +54,10 @@ npm run preview
 
 # Frameworks and Technologies Used
 
-React: For building the user interface and managing components.
-Vite: Used as the build tool for fast development and optimized production builds.
-Material-UI (MUI): For using pre-styled React components to create a modern design.
-Tailwind CSS: A utility-first CSS framework for efficient and responsive styling.
-React Router: For handling client-side routing and navigation within the app.
+- React: For building the user interface and managing components.
+- Vite: Used as the build tool for fast development and optimized production builds.
+- Material-UI (MUI): For using pre-styled React components to create a modern design.
+- Tailwind CSS: A utility-first CSS framework for efficient and responsive styling.
+- React Router: For handling client-side routing and navigation within the app.
 
 These frameworks help create a modern, responsive, and efficient web application. Let me know if you need more details or specific versions!
