@@ -64,14 +64,14 @@ export default function Home() {
       imageUrl: web_p,
       githubUrl: "https://github.com/ILakshitha/mern-state"
     },
-    {
-      title: "School Management System",
-      description: "Another sample project description. Replace with your actual project details.",
-      technologies: ["React", "Material UI", "Node.js"],
-      imageUrl: web_p,
+    // {
+    //   title: "School Management System",
+    //   description: "This is StudentManagement system like .",
+    //   technologies: ["React", "Material UI", "Node.js"],
+    //   imageUrl: web_p,
 
-      githubUrl: "https://github.com/ILakshitha/School-Management-System"
-    },
+    //   githubUrl: "https://github.com/ILakshitha/School-Management-System"
+    // },
     
     {
       title: "BMI Calculator",
