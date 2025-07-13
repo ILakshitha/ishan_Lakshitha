@@ -79,6 +79,15 @@ export default function Home() {
       technologies: ["Mobile App Development", "Flutter", "Node.js","Firebase","Dart"],
       imageUrl: mob_p,
       githubUrl: "https://github.com/ILakshitha/BMI_Calculator"
+    },{
+      
+        title: "Real-Time Chat App",
+        description: "A real-time chat application with user authentication, built to enable seamless conversations with WebSocket technology.",
+        technologies: ["React", "TailwindCSS", "Node.js", "Socket.io"],
+        imageUrl: web_p, // replace with your actual image import or path
+        githubUrl: "https://github.com/ILakshitha/Chat-App" // update if different
+      
+      
     },
     {
       title: "Hotel_Mithila web App",
