@@ -10,6 +10,7 @@ import Skill_cards from '../components/Skill_cards';
 import web_p from '../assets/Web-App-Development.jpg'
 import mob_p from '../assets/f-image.png'
 import Contact from '../components/Contact';
+import evergreen_img from '../assets/evergreen_p.jpeg'; // Import the image for the Evergreen project
 
 export default function Home() {
   const homeref = useRef(null);
@@ -41,6 +42,13 @@ export default function Home() {
   };
 
   const projects = [
+    {
+      title: "EverGreen Tea Factory Management System",
+      description: "A full-stack tea factory management system built to streamline operations including inventory, fertilizer tracking, and stakeholder management. Features include driver task management and delivery logs, tea supplier registration and supply tracking, and managerial dashboards for overseeing product records, user roles, and system analytics.",
+      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+      imageUrl: evergreen_img, // replace with your actual image import or path
+      githubUrl: "https://github.com/ILakshitha/Evergreen_Project" // 
+    },
     {
       title: "Blog App",
       description: "This is a blog app that allows you to create, read, update, and delete blog posts.",
@@ -89,14 +97,7 @@ export default function Home() {
       
       
     },
-    {
-      title: "Hotel_Mithila web App",
-      description: "This web app create for mithila hotel in Unawatuna.",
-      technologies: ["React", "TailwindCSS", "Node.js"],
-      imageUrl: web_p,
-      
-      githubUrl: "https://github.com/ILakshitha/Hotel_Mithila"
-    },
+    
     // Add more projects as needed
   ];
 
